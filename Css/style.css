@@ -283,6 +283,17 @@
     font-family: "Archivo", sans-serif;
     text-decoration: none;
   }
+  .productcap {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    justify-content: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+  }
+  .comments {
+    background-color: #d9d9d9;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   /* Estilos para tablet */
