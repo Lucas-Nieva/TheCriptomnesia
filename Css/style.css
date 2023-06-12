@@ -588,8 +588,8 @@
     justify-content: center;
     align-content: center;
     padding: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .itemsheader1 {
@@ -704,14 +704,14 @@
   }
   .contenedor1 {
     background-color: #d9d9d9;
-    margin-top: 02%;
+    margin-top: 00%;
   }
   .subtitle1 {
     font-family: "Archivo", sans-serif;
     font-size: medium;
     margin-left: 25%;
     text-align: left;
-    margin-top: 2%;
+    margin-top: 0%;
   }
   .resultados {
     font-family: "Archivo", sans-serif;
@@ -721,19 +721,19 @@
 
   .maingeneral {
     display: grid;
-    grid-template-columns: 27% 73%;
+    grid-template-rows: 30% 70%;
   }
 
   .sitefilter {
     display: grid;
-    grid-template-rows: 7% 93%;
+    grid-template-columns: 30% 70%;
   }
   .precio1 {
     display: grid;
     grid-template-columns: 50% 50%;
-    font-size: large;
+    font-size: small;
     text-align: left;
-    margin-left: 4%;
+    margin-left: none;
   }
 
   .stars {
