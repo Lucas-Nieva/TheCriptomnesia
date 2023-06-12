@@ -152,6 +152,7 @@
   .maingeneral {
     display: grid;
     grid-template-columns: 27% 73%;
+    justify-content: center;
   }
 
   .sitefilter {
@@ -187,7 +188,7 @@
   }
   .accordion-body {
     font-family: "Archivo", sans-serif;
-    margin-left: 11rem;
+    margin-left: 40%;
     color: #1e1e1e;
     outline: none;
     padding: 5%;
@@ -438,6 +439,7 @@
   .maingeneral {
     display: grid;
     grid-template-columns: 27% 73%;
+    justify-content: center;
   }
 
   .sitefilter {
@@ -721,12 +723,13 @@
 
   .maingeneral {
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 30px auto;
+    justify-content: center;
   }
 
   .sitefilter {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
   }
   .precio1 {
     display: grid;
