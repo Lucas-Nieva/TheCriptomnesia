@@ -302,8 +302,8 @@
     justify-content: center;
     align-content: center;
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .itemsheader1 {
@@ -369,7 +369,7 @@
   .card {
     font-family: "Archivo", sans-serif;
     text-align: center;
-    justify-content: center;
+    justify-content: right;
     border: none;
     padding: 2%;
   }
@@ -397,8 +397,8 @@
     grid-template-columns: 20% 45% 30% 05%;
     justify-content: center;
     align-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 09pt;
     padding: 1%;
   }
@@ -413,10 +413,10 @@
   }
   .product1 {
     margin: 01%;
-    margin-right: 10%;
+    margin-right: 5%;
     display: grid;
     grid-template-columns: 50% 50%;
-    justify-content: center;
+    justify-content: right;
   }
   .contenedor1 {
     background-color: #d9d9d9;
@@ -425,14 +425,14 @@
   .subtitle1 {
     font-family: "Archivo", sans-serif;
     font-size: medium;
-    margin-left: 40%;
+    margin-left: 25%;
     text-align: left;
     margin-top: 2%;
   }
   .resultados {
     font-family: "Archivo", sans-serif;
     font-size: medium;
-    margin-left: 40%;
+    margin-left: 25%;
   }
 
   .maingeneral {
@@ -469,11 +469,11 @@
   .accordion-header {
     font-family: "Archivo", sans-serif;
     font-size: medium;
-    margin-left: 40%;
+    margin-left: 25%;
   }
   .accordion-body {
     font-family: "Archivo", sans-serif;
-    margin-left: 11rem;
+    margin-left: 25%;
     color: #1e1e1e;
     outline: none;
     padding: 5%;
@@ -493,7 +493,7 @@
     font-family: "Archivo", sans-serif;
     font-weight: 400;
     color: #d9d9d9;
-    font-size: small;
+    font-size: x-small;
     text-align: center;
     margin: 0%;
   }
@@ -539,16 +539,16 @@
     display: grid;
     grid-template-columns: 20% 15% 15% 15% 15% 20%;
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .footercr {
     justify-content: center;
     text-align: center;
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   a:link {
@@ -569,3 +569,5 @@
     text-decoration: none;
   }
 }
+@media (max-width: 767px) {
+  /* Estilos para tablet */
