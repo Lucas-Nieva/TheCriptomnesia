@@ -668,8 +668,7 @@
     justify-content: center;
     align-content: center;
     padding: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
   }
 
   .itemsheader1 {
@@ -764,10 +763,11 @@
     grid-template-columns: 20% 45% 30% 05%;
     justify-content: center;
     align-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 09pt;
     padding: 1%;
+    margin-bottom: 2%;
   }
   .navshortcuts {
     display: flex;
