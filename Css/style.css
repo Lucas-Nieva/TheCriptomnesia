@@ -74,6 +74,8 @@
     display: flex;
     align-self: center;
     text-align: center;
+    font-size: medium;
+    margin-left: 0.5rem;
   }
   .card {
     font-family: "Archivo", sans-serif;
@@ -402,6 +404,7 @@
     display: flex;
     align-self: center;
     text-align: center;
+    margin-left: 0.5rem;
   }
   .card {
     font-family: "Archivo", sans-serif;
@@ -605,6 +608,46 @@
     color: #d9d9d9;
     font-family: "Archivo", sans-serif;
     text-decoration: none;
+  }
+  .productcap {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: 60rem;
+    justify-content: left;
+    align-items: top;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding: 0%;
+    font-family: "Archivo", sans-serif;
+    text-decoration: none;
+  }
+  .comments {
+    background-color: #d9d9d9;
+    border-radius: 1%;
+    align-content: center;
+    padding: 2%;
+    margin-bottom: 30%;
+  }
+  .card1 {
+    margin-right: 0;
+    text-decoration-skip: 2%;
+  }
+  .ubistar1 {
+    margin-bottom: 1%;
+  }
+
+  .capdetails {
+    display: grid;
+    grid-template-columns: 65% 45%;
+  }
+
+  .imagescaps {
+    justify-content: center;
+    align-content: center;
+  }
+  .imageprinc {
+    margin-right: 20%;
   }
 }
 @media (max-width: 768px) {
