@@ -730,6 +730,9 @@
     align-self: center;
     text-align: center;
   }
+  .none {
+    display: none;
+  }
   .card {
     font-family: "Archivo", sans-serif;
     text-align: center;
